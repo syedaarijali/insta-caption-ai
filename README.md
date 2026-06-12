@@ -1,22 +1,20 @@
-\---
-
+---
 title: InstaCaption AI
 emoji: 📸
 colorFrom: pink
 colorTo: purple
 sdk: gradio
-sdk\_version: "6.17.3"
-app\_file: app.py
+sdk_version: "6.17.3"
+app_file: app.py
 pinned: false
 ---
-
 # 📸 InstaCaption AI — Instagram Caption Generator
 
 Upload a photo and get Instagram-ready captions in seconds. Combines **Computer Vision** and **NLP** in a two-stage AI pipeline — and it can even mimic *your* personal caption style.
 
 **🔴 Live Demo:** https://huggingface.co/spaces/aarij2026/insta-caption-ai
 
-!\[Demo](https://huggingface.co/spaces/aarij2026/insta-caption-ai/resolve/main/demo.gif)
+![Demo](https://huggingface.co/spaces/aarij2026/insta-caption-ai/resolve/main/demo.gif)
 
 ## How it works
 
@@ -58,7 +56,7 @@ Upload a photo and get Instagram-ready captions in seconds. Combines **Computer 
 git clone https://github.com/syedaarijali/insta-caption-ai.git
 cd insta-caption-ai
 pip install -r requirements.txt
-set HF\_TOKEN=your\_huggingface\_token
+set HF\\\_TOKEN=your\\\_huggingface\\\_token
 python app.py
 ```
 
@@ -68,7 +66,7 @@ Open http://127.0.0.1:7860
 
 1. Create a Space at https://huggingface.co/new-space → SDK: **Gradio**
 2. Push this repo to the Space
-3. In Space **Settings → Variables and secrets**, add a secret `HF\_TOKEN` with a token from https://huggingface.co/settings/tokens (enable "Make calls to Inference Providers")
+3. In Space **Settings → Variables and secrets**, add a secret `HF\\\_TOKEN` with a token from https://huggingface.co/settings/tokens (enable "Make calls to Inference Providers")
 
 ## Author
 
