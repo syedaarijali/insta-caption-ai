@@ -1,24 +1,32 @@
 \---
 
 title: InstaCaption AI
+
 emoji: 📸
+
 colorFrom: pink
+
 colorTo: purple
+
 sdk: gradio
+
 sdk\_version: 6.17.3
+
 app\_file: app.py
+
 pinned: false
----
 
-# 📸 InstaCaption AI — Instagram Caption Generator
+\---
 
-Upload a photo and get Instagram-ready captions in seconds. Combines **Computer Vision** and **NLP** in a two-stage AI pipeline — and it can even mimic *your* personal caption style.
+
+
+\# 📸 InstaCaption AI — Instagram Caption GeneratorUpload a photo and get Instagram-ready captions in seconds. Combines **Computer Vision** and **NLP** in a two-stage AI pipeline — and it can even mimic *your* personal caption style.
 
 **🔴 Live Demo:** https://huggingface.co/spaces/YOUR\_HF\_USERNAME/insta-caption-ai
 
 !\[Demo](demo.gif)
 
-## How it works
+## \##How it works
 
 ```
  ┌─────────────┐     ┌──────────────────┐     ┌─────────────────────┐
@@ -35,7 +43,7 @@ Upload a photo and get Instagram-ready captions in seconds. Combines **Computer 
    * **Your personal voice** — paste a few of your past captions and the model mimics your emoji usage, length, and vibe
    * **Hashtag preference** and number of variants
 
-## Features
+## \##Features
 
 * 🖼️ Drag-and-drop image upload
 * 🎭 7 caption tones
@@ -55,10 +63,10 @@ Upload a photo and get Instagram-ready captions in seconds. Combines **Computer 
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR\_USERNAME/insta-caption-ai.git
+git clone https://github.com/YOUR\\\_USERNAME/insta-caption-ai.git
 cd insta-caption-ai
 pip install -r requirements.txt
-export HF\_TOKEN=your\_huggingface\_token   # needs Inference API access
+export HF\\\_TOKEN=your\\\_huggingface\\\_token   # needs Inference API access
 python app.py
 ```
 
@@ -68,7 +76,7 @@ Open http://127.0.0.1:7860
 
 1. Create a Space at https://huggingface.co/new-space → SDK: **Gradio**
 2. Push this repo to the Space
-3. In Space **Settings → Variables and secrets**, add a secret `HF\_TOKEN` with a token from https://huggingface.co/settings/tokens
+3. In Space **Settings → Variables and secrets**, add a secret `HF\\\_TOKEN` with a token from https://huggingface.co/settings/tokens
 
 ## Author
 
